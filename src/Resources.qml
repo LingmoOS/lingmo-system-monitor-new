@@ -50,6 +50,7 @@ ItemPage {
     ScrollView {
         id: scrollView
         anchors.fill: parent
+        anchors.margins: LingmoUI.Units.largeSpacing
         contentWidth: availableWidth
         ScrollBar.vertical.policy: ScrollBar.AsNeeded
 

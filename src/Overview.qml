@@ -11,6 +11,7 @@ ItemPage {
     ScrollView {
         id: scrollView
         anchors.fill: parent
+        anchors.margins: LingmoUI.Units.largeSpacing
         contentWidth: availableWidth
         ScrollBar.vertical.policy: ScrollBar.AsNeeded
 
@@ -23,7 +24,7 @@ ItemPage {
                 Layout.fillWidth: true
                 Layout.leftMargin: LingmoUI.Units.largeSpacing
                 Layout.rightMargin: LingmoUI.Units.largeSpacing
-                Layout.preferredHeight: gridLayout.implicitHeight + LingmoUI.Units.largeSpacing * 3
+                Layout.preferredHeight: gridLayout.implicitHeight + LingmoUI.Units.largeSpacing * 7
                 title: qsTr("System")
 
                 GridLayout {

@@ -52,53 +52,53 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/Overview.qml" line="27"/>
+        <location filename="../src/Overview.qml" line="28"/>
         <source>System</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/Overview.qml" line="39"/>
+        <location filename="../src/Overview.qml" line="40"/>
         <source>Hostname</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/Overview.qml" line="40"/>
+        <location filename="../src/Overview.qml" line="41"/>
         <source>Operating System</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/Overview.qml" line="41"/>
+        <location filename="../src/Overview.qml" line="42"/>
         <source>Kernel Version</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/Overview.qml" line="42"/>
+        <location filename="../src/Overview.qml" line="43"/>
         <source>Desktop Environment</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/Overview.qml" line="43"/>
-        <location filename="../src/Overview.qml" line="151"/>
+        <location filename="../src/Overview.qml" line="44"/>
+        <location filename="../src/Overview.qml" line="152"/>
         <source>CPU</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/Overview.qml" line="73"/>
+        <location filename="../src/Overview.qml" line="74"/>
         <source>Usage</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/Overview.qml" line="231"/>
+        <location filename="../src/Overview.qml" line="232"/>
         <source>Memory</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/Overview.qml" line="324"/>
+        <location filename="../src/Overview.qml" line="325"/>
         <source>Disk</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/Overview.qml" line="332"/>
+        <location filename="../src/Overview.qml" line="333"/>
         <source>Free</source>
         <translation type="unfinished"></translation>
     </message>
@@ -225,52 +225,52 @@
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/Resources.qml" line="66"/>
+        <location filename="../src/Resources.qml" line="67"/>
         <source>CPU History</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/Resources.qml" line="112"/>
+        <location filename="../src/Resources.qml" line="113"/>
         <source>Core %1:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/Resources.qml" line="316"/>
+        <location filename="../src/Resources.qml" line="317"/>
         <source>Memory History</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/Resources.qml" line="339"/>
+        <location filename="../src/Resources.qml" line="340"/>
         <source>of %1</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/Resources.qml" line="539"/>
+        <location filename="../src/Resources.qml" line="540"/>
         <source>Network History</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/Resources.qml" line="561"/>
+        <location filename="../src/Resources.qml" line="562"/>
         <source>Interface</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/Resources.qml" line="567"/>
+        <location filename="../src/Resources.qml" line="568"/>
         <source>Download</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/Resources.qml" line="573"/>
+        <location filename="../src/Resources.qml" line="574"/>
         <source>Upload</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/Resources.qml" line="579"/>
+        <location filename="../src/Resources.qml" line="580"/>
         <source>Total</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <location filename="../src/Resources.qml" line="637"/>
+        <location filename="../src/Resources.qml" line="638"/>
         <source>No network interfaces found</source>
         <translation type="unfinished"></translation>
     </message>

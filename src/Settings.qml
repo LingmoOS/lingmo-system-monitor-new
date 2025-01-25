@@ -270,22 +270,67 @@ ItemPage {
 
                         SpinBox {
                             id: graphPointsSpinBox
+                            Layout.preferredWidth: 120
                             from: 30
                             to: 200
                             stepSize: 10
-                            value: 60
-                            onValueChanged: {
-                                cpuCanvas.maxPoints = value
-                                memoryCanvas.maxPoints = value
-                                settingsManager.graphPoints = value
+                            value: settings.graphPoints
+                            editable: true
+
+                            contentItem: TextInput {
+                                text: graphPointsSpinBox.textFromValue(graphPointsSpinBox.value, graphPointsSpinBox.locale)
+                                font: graphPointsSpinBox.font
+                                color: LingmoUI.Theme.textColor
+                                selectionColor: LingmoUI.Theme.highlightColor
+                                selectedTextColor: LingmoUI.Theme.highlightedTextColor
+                                horizontalAlignment: Qt.AlignHCenter
+                                verticalAlignment: Qt.AlignVCenter
+                                readOnly: !graphPointsSpinBox.editable
+                                validator: graphPointsSpinBox.validator
+                                selectByMouse: true
                             }
 
                             background: Rectangle {
                                 implicitWidth: 120
                                 implicitHeight: 36
+                                color: LingmoUI.Theme.backgroundColor
                                 radius: LingmoUI.Theme.smallRadius
-                                color: LingmoUI.Theme.darkMode ? Qt.rgba(255, 255, 255, 0.1)
-                                                             : Qt.rgba(0, 0, 0, 0.05)
+                            }
+
+                            down.indicator: Rectangle {
+                                x: 0
+                                width: 28
+                                height: parent.height
+                                color: graphPointsSpinBox.down.pressed ? Qt.rgba(0, 0, 0, 0.15) :
+                                       graphPointsSpinBox.down.hovered ? Qt.rgba(0, 0, 0, 0.1) : "transparent"
+                                radius: height / 2
+
+                                Label {
+                                    anchors.centerIn: parent
+                                    text: "−"
+                                    color: LingmoUI.Theme.textColor
+                                    opacity: enabled ? 1.0 : 0.3
+                                }
+                            }
+
+                            up.indicator: Rectangle {
+                                x: parent.width - width
+                                width: 28
+                                height: parent.height
+                                color: graphPointsSpinBox.up.pressed ? Qt.rgba(0, 0, 0, 0.15) :
+                                       graphPointsSpinBox.up.hovered ? Qt.rgba(0, 0, 0, 0.1) : "transparent"
+                                radius: height / 2
+
+                                Label {
+                                    anchors.centerIn: parent
+                                    text: "+"
+                                    color: LingmoUI.Theme.textColor
+                                    opacity: enabled ? 1.0 : 0.3
+                                }
+                            }
+
+                            onValueModified: {
+                                settings.graphPoints = value
                             }
                         }
 

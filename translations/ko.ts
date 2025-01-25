@@ -1,175 +1,218 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="ko">
+<TS version="2.1">
 <context>
     <name>FileSystem</name>
     <message>
+        <location filename="../src/FileSystem.qml" line="10"/>
         <source>File Systems</source>
-        <translation>파일 시스템</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../src/FileSystem.qml" line="42"/>
         <source>Device</source>
-        <translation>장치</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../src/FileSystem.qml" line="47"/>
         <source>Mount Point</source>
-        <translation>마운트 지점</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../src/FileSystem.qml" line="52"/>
         <source>Type</source>
-        <translation>유형</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../src/FileSystem.qml" line="57"/>
         <source>Total</source>
-        <translation>전체</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../src/FileSystem.qml" line="62"/>
         <source>Free</source>
-        <translation>여유</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../src/FileSystem.qml" line="67"/>
         <source>Used</source>
-        <translation>사용됨</translation>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/FileSystem.qml" line="176"/>
+        <source>No file systems found</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>Overview</name>
     <message>
+        <location filename="../src/Overview.qml" line="9"/>
         <source>Overview</source>
-        <translation>개요</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../src/Overview.qml" line="27"/>
         <source>System</source>
-        <translation>시스템</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../src/Overview.qml" line="39"/>
         <source>Hostname</source>
-        <translation>호스트 이름</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../src/Overview.qml" line="40"/>
         <source>Operating System</source>
-        <translation>운영 체제</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../src/Overview.qml" line="41"/>
         <source>Kernel Version</source>
-        <translation>커널 버전</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../src/Overview.qml" line="42"/>
         <source>Desktop Environment</source>
-        <translation>데스크톱 환경</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../src/Overview.qml" line="43"/>
+        <location filename="../src/Overview.qml" line="151"/>
         <source>CPU</source>
-        <translation>프로세서</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../src/Overview.qml" line="73"/>
         <source>Usage</source>
-        <translation>사용률</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../src/Overview.qml" line="231"/>
         <source>Memory</source>
-        <translation>메모리</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>of %1</source>
-        <translation type="vanished">/ %1</translation>
+        <location filename="../src/Overview.qml" line="324"/>
+        <source>Disk</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Disk Usage</source>
-        <translation type="vanished">디스크 사용량</translation>
-    </message>
-    <message>
-        <source>Free: </source>
-        <translation>여유：</translation>
+        <location filename="../src/Overview.qml" line="332"/>
+        <source>Free</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>Processes</name>
     <message>
+        <location filename="../src/Processes.qml" line="10"/>
         <source>Processes</source>
-        <translation>프로세스</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../src/Processes.qml" line="36"/>
         <source>Search Process</source>
-        <translation>프로세스 검색</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>All Processes</source>
-        <translation>모든 프로세스</translation>
-    </message>
-    <message>
-        <source>My Processes</source>
-        <translation>내 프로세스</translation>
-    </message>
-    <message>
-        <source>Active Processes</source>
-        <translation>활성 프로세스</translation>
-    </message>
-    <message>
-        <source>End Process</source>
-        <translation>프로세스 종료</translation>
-    </message>
-    <message>
-        <source>Refresh</source>
-        <translation>새로 고침</translation>
-    </message>
-    <message>
-        <source>Name</source>
-        <translation>이름</translation>
-    </message>
-    <message>
-        <source>CPU</source>
-        <translation>프로세서</translation>
-    </message>
-    <message>
-        <source>Memory</source>
-        <translation>메모리</translation>
-    </message>
-    <message>
-        <source>PID</source>
-        <translation>프로세스 ID</translation>
-    </message>
-    <message>
-        <source>User</source>
-        <translation>사용자</translation>
-    </message>
-    <message>
-        <source>Priority</source>
-        <translation>우선 순위</translation>
-    </message>
-    <message>
-        <source>Very High</source>
-        <translation>매우 높음</translation>
-    </message>
-    <message>
-        <source>High</source>
-        <translation>높음</translation>
-    </message>
-    <message>
-        <source>Normal</source>
-        <translation>보통</translation>
-    </message>
-    <message>
-        <source>Low</source>
-        <translation>낮음</translation>
-    </message>
-    <message>
-        <source>Very Low</source>
-        <translation>매우 낮음</translation>
-    </message>
-    <message>
-        <source>Details</source>
-        <translation>상세 정보</translation>
-    </message>
-    <message>
+        <location filename="../src/Processes.qml" line="73"/>
         <source>Press Ctrl+F to search</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../src/Processes.qml" line="98"/>
+        <source>All Processes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/Processes.qml" line="98"/>
+        <source>My Processes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/Processes.qml" line="98"/>
+        <source>Active Processes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/Processes.qml" line="252"/>
+        <location filename="../src/Processes.qml" line="492"/>
+        <source>End Process</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/Processes.qml" line="266"/>
+        <source>Refresh</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/Processes.qml" line="321"/>
+        <source>Name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/Processes.qml" line="338"/>
+        <source>CPU</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/Processes.qml" line="355"/>
+        <source>Memory</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/Processes.qml" line="372"/>
+        <source>PID</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/Processes.qml" line="389"/>
+        <source>User</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/Processes.qml" line="498"/>
+        <source>Priority</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/Processes.qml" line="529"/>
+        <source>Very High</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/Processes.qml" line="533"/>
+        <source>High</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/Processes.qml" line="537"/>
+        <source>Normal</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/Processes.qml" line="541"/>
+        <source>Low</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/Processes.qml" line="545"/>
+        <source>Very Low</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/Processes.qml" line="553"/>
+        <source>Details</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/Processes.qml" line="570"/>
         <source>No processes found</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../src/Processes.qml" line="577"/>
         <source>No matching processes found</source>
         <translation type="unfinished"></translation>
     </message>
@@ -177,46 +220,57 @@
 <context>
     <name>Resources</name>
     <message>
+        <location filename="../src/Resources.qml" line="9"/>
         <source>Resources</source>
-        <translation>리소스</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../src/Resources.qml" line="66"/>
         <source>CPU History</source>
-        <translation>CPU 기록</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Memory History</source>
-        <translation>메모리 기록</translation>
-    </message>
-    <message>
-        <source>Network History</source>
-        <translation>네트워크 기록</translation>
-    </message>
-    <message>
-        <source>Interface</source>
-        <translation>인터페이스</translation>
-    </message>
-    <message>
-        <source>Download</source>
-        <translation>다운로드</translation>
-    </message>
-    <message>
-        <source>Upload</source>
-        <translation>업로드</translation>
-    </message>
-    <message>
-        <source>Total</source>
-        <translation>전체</translation>
-    </message>
-    <message>
+        <location filename="../src/Resources.qml" line="112"/>
         <source>Core %1:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>of %1</source>
-        <translation type="unfinished">/ %1</translation>
+        <location filename="../src/Resources.qml" line="316"/>
+        <source>Memory History</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../src/Resources.qml" line="339"/>
+        <source>of %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/Resources.qml" line="539"/>
+        <source>Network History</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/Resources.qml" line="561"/>
+        <source>Interface</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/Resources.qml" line="567"/>
+        <source>Download</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/Resources.qml" line="573"/>
+        <source>Upload</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/Resources.qml" line="579"/>
+        <source>Total</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/Resources.qml" line="637"/>
         <source>No network interfaces found</source>
         <translation type="unfinished"></translation>
     </message>
@@ -224,108 +278,135 @@
 <context>
     <name>Settings</name>
     <message>
+        <location filename="../src/Settings.qml" line="10"/>
         <source>Settings</source>
-        <translation>설정</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../src/Settings.qml" line="45"/>
         <source>General</source>
-        <translation>일반</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../src/Settings.qml" line="57"/>
         <source>Update Interval:</source>
-        <translation>업데이트 간격：</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../src/Settings.qml" line="136"/>
+        <location filename="../src/Settings.qml" line="240"/>
         <source>seconds</source>
-        <translation>초</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../src/Settings.qml" line="141"/>
+        <location filename="../src/Settings.qml" line="245"/>
         <source>Reset</source>
-        <translation>초기화</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Graph Points:</source>
-        <translation>그래프 포인트：</translation>
-    </message>
-    <message>
-        <source>Process List</source>
-        <translation>프로세스 목록</translation>
-    </message>
-    <message>
-        <source>Default Sort By:</source>
-        <translation>기본 정렬：</translation>
-    </message>
-    <message>
-        <source>CPU Usage</source>
-        <translation>CPU 사용률</translation>
-    </message>
-    <message>
-        <source>Memory Usage</source>
-        <translation>메모리 사용률</translation>
-    </message>
-    <message>
-        <source>Process Name</source>
-        <translation>프로세스 이름</translation>
-    </message>
-    <message>
-        <source>Default Order:</source>
-        <translation>기본 순서：</translation>
-    </message>
-    <message>
-        <source>Descending</source>
-        <translation>내림차순</translation>
-    </message>
-    <message>
-        <source>Ascending</source>
-        <translation>오름차순</translation>
-    </message>
-    <message>
+        <location filename="../src/Settings.qml" line="161"/>
         <source>Refresh Rate:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../src/Settings.qml" line="265"/>
+        <source>Graph Points:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/Settings.qml" line="349"/>
+        <source>Process List</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/Settings.qml" line="361"/>
+        <source>Default Sort By:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/Settings.qml" line="370"/>
+        <source>CPU Usage</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/Settings.qml" line="370"/>
+        <source>Memory Usage</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/Settings.qml" line="370"/>
+        <source>Process Name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/Settings.qml" line="370"/>
         <source>User</source>
-        <translation type="unfinished">사용자</translation>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/Settings.qml" line="415"/>
+        <source>Default Order:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/Settings.qml" line="424"/>
+        <source>Descending</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/Settings.qml" line="424"/>
+        <source>Ascending</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>SideBar</name>
     <message>
+        <location filename="../src/SideBar.qml" line="27"/>
         <source>Overview</source>
-        <translation type="unfinished">개요</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../src/SideBar.qml" line="34"/>
         <source>Processes</source>
-        <translation type="unfinished">프로세스</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../src/SideBar.qml" line="41"/>
         <source>Resources</source>
-        <translation type="unfinished">리소스</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../src/SideBar.qml" line="48"/>
         <source>File Systems</source>
-        <translation type="unfinished">파일 시스템</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../src/SideBar.qml" line="55"/>
         <source>Settings</source>
-        <translation type="unfinished">설정</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>main</name>
     <message>
+        <location filename="../src/main.qml" line="15"/>
         <source>System Monitor</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../src/main.qml" line="86"/>
         <source>Show</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../src/main.qml" line="90"/>
         <source>Hide</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../src/main.qml" line="95"/>
         <source>Quit</source>
         <translation type="unfinished"></translation>
     </message>

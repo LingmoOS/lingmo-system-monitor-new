@@ -365,14 +365,21 @@ void SystemInfo::updateDiskInfo()
                 QString mountPoint = parts[1];
                 QString filesystem = parts[2];
                 
-                // 只处理实际的硬盘分区
-                if (device.startsWith("/dev/") && 
-                    !device.startsWith("/dev/loop") && 
-                    !filesystem.contains("tmpfs") && 
-                    !filesystem.contains("devtmpfs") &&
-                    !filesystem.contains("efivarfs") &&
-                    !mountPoint.startsWith("/boot") &&
-                    !mountPoint.startsWith("/snap")) {
+                // 排除一些特殊的文件系统
+                if (!filesystem.contains("sysfs") && 
+                    !filesystem.contains("proc") && 
+                    !filesystem.contains("devpts") && 
+                    !filesystem.contains("securityfs") && 
+                    !filesystem.contains("cgroup") &&
+                    !filesystem.contains("pstore") &&
+                    !filesystem.contains("debugfs") &&
+                    !filesystem.contains("hugetlbfs") &&
+                    !filesystem.contains("mqueue") &&
+                    !filesystem.contains("fusectl") &&
+                    !filesystem.contains("configfs") &&
+                    !filesystem.contains("binfmt_misc") &&
+                    !mountPoint.startsWith("/sys") &&
+                    !mountPoint.startsWith("/run/user")) {
                     
                     struct statvfs info;
                     if (statvfs(mountPoint.toLocal8Bit().constData(), &info) == 0) {
@@ -382,13 +389,33 @@ void SystemInfo::updateDiskInfo()
                         quint64 freeSpace = blockSize * info.f_bfree;
                         quint64 usedSpace = totalSize - freeSpace;
                         
-                        disk["device"] = device;
+                        // 对于网络文件系统和特殊文件系统，显示设备名而不是设备路径
+                        if (device.startsWith("//") || device.contains(":")) {
+                            // 网络文件系统，显示共享名
+                            disk["device"] = device.split("/").last();
+                        } else if (!device.startsWith("/")) {
+                            // 特殊文件系统，直接显示类型
+                            disk["device"] = filesystem;
+                        } else {
+                            disk["device"] = device;
+                        }
+
                         disk["mountPoint"] = mountPoint;
-                        disk["filesystem"] = filesystem;
-                        disk["size"] = formatSize(totalSize);
-                        disk["used"] = formatSize(usedSpace);
-                        disk["free"] = formatSize(freeSpace);
-                        disk["usedPercentage"] = (double)usedSpace / totalSize * 100;
+                        disk["type"] = filesystem;
+                        
+                        // 对于某些特殊文件系统，可能没有大小信息
+                        if (totalSize > 0) {
+                            disk["total"] = formatSize(totalSize);
+                            disk["used"] = formatSize(usedSpace);
+                            disk["free"] = formatSize(freeSpace);
+                            double usedPercentage = (double)usedSpace / totalSize * 100;
+                            disk["usedPercentage"] = usedPercentage;
+                        } else {
+                            disk["total"] = "-";
+                            disk["used"] = "-";
+                            disk["free"] = "-";
+                            disk["usedPercentage"] = 0;
+                        }
                         
                         disks.append(disk);
                     }
@@ -397,6 +424,11 @@ void SystemInfo::updateDiskInfo()
         }
         mounts.close();
     }
+
+    // 按挂载点排序
+    std::sort(disks.begin(), disks.end(), [](const QVariant &a, const QVariant &b) {
+        return a.toMap()["mountPoint"].toString() < b.toMap()["mountPoint"].toString();
+    });
 
     if (m_diskList != disks) {
         m_diskList = disks;

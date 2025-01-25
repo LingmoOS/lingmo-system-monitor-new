@@ -31,6 +31,10 @@
         <source>Used</source>
         <translation>使用済み</translation>
     </message>
+    <message>
+        <source>No file systems found</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>Overview</name>
@@ -80,7 +84,15 @@
     </message>
     <message>
         <source>Free: </source>
-        <translation>空き：</translation>
+        <translation type="vanished">空き：</translation>
+    </message>
+    <message>
+        <source>Disk</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Free</source>
+        <translation type="unfinished">空き</translation>
     </message>
 </context>
 <context>
@@ -280,12 +292,12 @@
         <translation>昇順</translation>
     </message>
     <message>
-        <source>Refresh Rate:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>User</source>
         <translation type="unfinished">ユーザー</translation>
+    </message>
+    <message>
+        <source>Refresh Rate:</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

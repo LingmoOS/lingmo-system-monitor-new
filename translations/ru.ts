@@ -31,6 +31,10 @@
         <source>Used</source>
         <translation>Использовано</translation>
     </message>
+    <message>
+        <source>No file systems found</source>
+        <translation type="unfinished"></translation>
+    </message>
 </context>
 <context>
     <name>Overview</name>
@@ -80,7 +84,15 @@
     </message>
     <message>
         <source>Free: </source>
-        <translation>Свободно: </translation>
+        <translation type="vanished">Свободно: </translation>
+    </message>
+    <message>
+        <source>Disk</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <source>Free</source>
+        <translation type="unfinished">Свободно</translation>
     </message>
 </context>
 <context>
@@ -280,12 +292,12 @@
         <translation>По возрастанию</translation>
     </message>
     <message>
-        <source>Refresh Rate:</source>
-        <translation type="unfinished"></translation>
-    </message>
-    <message>
         <source>User</source>
         <translation type="unfinished">Пользователь</translation>
+    </message>
+    <message>
+        <source>Refresh Rate:</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>

@@ -1,175 +1,218 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE TS>
-<TS version="2.1" language="it">
+<TS version="2.1">
 <context>
     <name>FileSystem</name>
     <message>
+        <location filename="../src/FileSystem.qml" line="10"/>
         <source>File Systems</source>
-        <translation>File system</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../src/FileSystem.qml" line="42"/>
         <source>Device</source>
-        <translation>Dispositivo</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../src/FileSystem.qml" line="47"/>
         <source>Mount Point</source>
-        <translation>Punto di mount</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../src/FileSystem.qml" line="52"/>
         <source>Type</source>
-        <translation>Tipo</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../src/FileSystem.qml" line="57"/>
         <source>Total</source>
-        <translation>Totale</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../src/FileSystem.qml" line="62"/>
         <source>Free</source>
-        <translation>Libero</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../src/FileSystem.qml" line="67"/>
         <source>Used</source>
-        <translation>Utilizzato</translation>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/FileSystem.qml" line="176"/>
+        <source>No file systems found</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>Overview</name>
     <message>
+        <location filename="../src/Overview.qml" line="9"/>
         <source>Overview</source>
-        <translation>Panoramica</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../src/Overview.qml" line="27"/>
         <source>System</source>
-        <translation>Sistema</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../src/Overview.qml" line="39"/>
         <source>Hostname</source>
-        <translation>Nome host</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../src/Overview.qml" line="40"/>
         <source>Operating System</source>
-        <translation>Sistema operativo</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../src/Overview.qml" line="41"/>
         <source>Kernel Version</source>
-        <translation>Versione kernel</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../src/Overview.qml" line="42"/>
         <source>Desktop Environment</source>
-        <translation>Ambiente desktop</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../src/Overview.qml" line="43"/>
+        <location filename="../src/Overview.qml" line="151"/>
         <source>CPU</source>
-        <translation>Processore</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../src/Overview.qml" line="73"/>
         <source>Usage</source>
-        <translation>Utilizzo</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../src/Overview.qml" line="231"/>
         <source>Memory</source>
-        <translation>Memoria</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>of %1</source>
-        <translation type="vanished">di %1</translation>
+        <location filename="../src/Overview.qml" line="324"/>
+        <source>Disk</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Disk Usage</source>
-        <translation type="vanished">Utilizzo disco</translation>
-    </message>
-    <message>
-        <source>Free: </source>
-        <translation>Libero: </translation>
+        <location filename="../src/Overview.qml" line="332"/>
+        <source>Free</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>Processes</name>
     <message>
+        <location filename="../src/Processes.qml" line="10"/>
         <source>Processes</source>
-        <translation>Processi</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../src/Processes.qml" line="36"/>
         <source>Search Process</source>
-        <translation>Cerca processo</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>All Processes</source>
-        <translation>Tutti i processi</translation>
-    </message>
-    <message>
-        <source>My Processes</source>
-        <translation>I miei processi</translation>
-    </message>
-    <message>
-        <source>Active Processes</source>
-        <translation>Processi attivi</translation>
-    </message>
-    <message>
-        <source>End Process</source>
-        <translation>Termina processo</translation>
-    </message>
-    <message>
-        <source>Refresh</source>
-        <translation>Aggiorna</translation>
-    </message>
-    <message>
-        <source>Name</source>
-        <translation>Nome</translation>
-    </message>
-    <message>
-        <source>CPU</source>
-        <translation>CPU</translation>
-    </message>
-    <message>
-        <source>Memory</source>
-        <translation>Memoria</translation>
-    </message>
-    <message>
-        <source>PID</source>
-        <translation>PID</translation>
-    </message>
-    <message>
-        <source>User</source>
-        <translation>Utente</translation>
-    </message>
-    <message>
-        <source>Priority</source>
-        <translation>Priorità</translation>
-    </message>
-    <message>
-        <source>Very High</source>
-        <translation>Molto alta</translation>
-    </message>
-    <message>
-        <source>High</source>
-        <translation>Alta</translation>
-    </message>
-    <message>
-        <source>Normal</source>
-        <translation>Normale</translation>
-    </message>
-    <message>
-        <source>Low</source>
-        <translation>Bassa</translation>
-    </message>
-    <message>
-        <source>Very Low</source>
-        <translation>Molto bassa</translation>
-    </message>
-    <message>
-        <source>Details</source>
-        <translation>Dettagli</translation>
-    </message>
-    <message>
+        <location filename="../src/Processes.qml" line="73"/>
         <source>Press Ctrl+F to search</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../src/Processes.qml" line="98"/>
+        <source>All Processes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/Processes.qml" line="98"/>
+        <source>My Processes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/Processes.qml" line="98"/>
+        <source>Active Processes</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/Processes.qml" line="252"/>
+        <location filename="../src/Processes.qml" line="492"/>
+        <source>End Process</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/Processes.qml" line="266"/>
+        <source>Refresh</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/Processes.qml" line="321"/>
+        <source>Name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/Processes.qml" line="338"/>
+        <source>CPU</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/Processes.qml" line="355"/>
+        <source>Memory</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/Processes.qml" line="372"/>
+        <source>PID</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/Processes.qml" line="389"/>
+        <source>User</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/Processes.qml" line="498"/>
+        <source>Priority</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/Processes.qml" line="529"/>
+        <source>Very High</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/Processes.qml" line="533"/>
+        <source>High</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/Processes.qml" line="537"/>
+        <source>Normal</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/Processes.qml" line="541"/>
+        <source>Low</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/Processes.qml" line="545"/>
+        <source>Very Low</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/Processes.qml" line="553"/>
+        <source>Details</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/Processes.qml" line="570"/>
         <source>No processes found</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../src/Processes.qml" line="577"/>
         <source>No matching processes found</source>
         <translation type="unfinished"></translation>
     </message>
@@ -177,46 +220,57 @@
 <context>
     <name>Resources</name>
     <message>
+        <location filename="../src/Resources.qml" line="9"/>
         <source>Resources</source>
-        <translation>Risorse</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../src/Resources.qml" line="66"/>
         <source>CPU History</source>
-        <translation>Cronologia CPU</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Memory History</source>
-        <translation>Cronologia memoria</translation>
-    </message>
-    <message>
-        <source>Network History</source>
-        <translation>Cronologia rete</translation>
-    </message>
-    <message>
-        <source>Interface</source>
-        <translation>Interfaccia</translation>
-    </message>
-    <message>
-        <source>Download</source>
-        <translation>Download</translation>
-    </message>
-    <message>
-        <source>Upload</source>
-        <translation>Upload</translation>
-    </message>
-    <message>
-        <source>Total</source>
-        <translation>Totale</translation>
-    </message>
-    <message>
+        <location filename="../src/Resources.qml" line="112"/>
         <source>Core %1:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>of %1</source>
-        <translation type="unfinished">di %1</translation>
+        <location filename="../src/Resources.qml" line="316"/>
+        <source>Memory History</source>
+        <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../src/Resources.qml" line="339"/>
+        <source>of %1</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/Resources.qml" line="539"/>
+        <source>Network History</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/Resources.qml" line="561"/>
+        <source>Interface</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/Resources.qml" line="567"/>
+        <source>Download</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/Resources.qml" line="573"/>
+        <source>Upload</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/Resources.qml" line="579"/>
+        <source>Total</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/Resources.qml" line="637"/>
         <source>No network interfaces found</source>
         <translation type="unfinished"></translation>
     </message>
@@ -224,108 +278,135 @@
 <context>
     <name>Settings</name>
     <message>
+        <location filename="../src/Settings.qml" line="10"/>
         <source>Settings</source>
-        <translation>Impostazioni</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../src/Settings.qml" line="45"/>
         <source>General</source>
-        <translation>Generale</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../src/Settings.qml" line="57"/>
         <source>Update Interval:</source>
-        <translation>Intervallo di aggiornamento:</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../src/Settings.qml" line="136"/>
+        <location filename="../src/Settings.qml" line="240"/>
         <source>seconds</source>
-        <translation>secondi</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../src/Settings.qml" line="141"/>
+        <location filename="../src/Settings.qml" line="245"/>
         <source>Reset</source>
-        <translation>Ripristina</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
-        <source>Graph Points:</source>
-        <translation>Punti del grafico:</translation>
-    </message>
-    <message>
-        <source>Process List</source>
-        <translation>Lista processi</translation>
-    </message>
-    <message>
-        <source>Default Sort By:</source>
-        <translation>Ordinamento predefinito:</translation>
-    </message>
-    <message>
-        <source>CPU Usage</source>
-        <translation>Utilizzo CPU</translation>
-    </message>
-    <message>
-        <source>Memory Usage</source>
-        <translation>Utilizzo memoria</translation>
-    </message>
-    <message>
-        <source>Process Name</source>
-        <translation>Nome processo</translation>
-    </message>
-    <message>
-        <source>Default Order:</source>
-        <translation>Ordine predefinito:</translation>
-    </message>
-    <message>
-        <source>Descending</source>
-        <translation>Decrescente</translation>
-    </message>
-    <message>
-        <source>Ascending</source>
-        <translation>Crescente</translation>
-    </message>
-    <message>
+        <location filename="../src/Settings.qml" line="161"/>
         <source>Refresh Rate:</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../src/Settings.qml" line="265"/>
+        <source>Graph Points:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/Settings.qml" line="349"/>
+        <source>Process List</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/Settings.qml" line="361"/>
+        <source>Default Sort By:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/Settings.qml" line="370"/>
+        <source>CPU Usage</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/Settings.qml" line="370"/>
+        <source>Memory Usage</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/Settings.qml" line="370"/>
+        <source>Process Name</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/Settings.qml" line="370"/>
         <source>User</source>
-        <translation type="unfinished">Utente</translation>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/Settings.qml" line="415"/>
+        <source>Default Order:</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/Settings.qml" line="424"/>
+        <source>Descending</source>
+        <translation type="unfinished"></translation>
+    </message>
+    <message>
+        <location filename="../src/Settings.qml" line="424"/>
+        <source>Ascending</source>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>SideBar</name>
     <message>
+        <location filename="../src/SideBar.qml" line="27"/>
         <source>Overview</source>
-        <translation type="unfinished">Panoramica</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../src/SideBar.qml" line="34"/>
         <source>Processes</source>
-        <translation type="unfinished">Processi</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../src/SideBar.qml" line="41"/>
         <source>Resources</source>
-        <translation type="unfinished">Risorse</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../src/SideBar.qml" line="48"/>
         <source>File Systems</source>
-        <translation type="unfinished">File system</translation>
+        <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../src/SideBar.qml" line="55"/>
         <source>Settings</source>
-        <translation type="unfinished">Impostazioni</translation>
+        <translation type="unfinished"></translation>
     </message>
 </context>
 <context>
     <name>main</name>
     <message>
+        <location filename="../src/main.qml" line="15"/>
         <source>System Monitor</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../src/main.qml" line="86"/>
         <source>Show</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../src/main.qml" line="90"/>
         <source>Hide</source>
         <translation type="unfinished"></translation>
     </message>
     <message>
+        <location filename="../src/main.qml" line="95"/>
         <source>Quit</source>
         <translation type="unfinished"></translation>
     </message>

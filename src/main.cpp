@@ -22,9 +22,16 @@ int main(int argc, char *argv[])
 
     SystemInfo systemInfo;
 
-    QTranslator translator;
-    if (translator.load(QLocale::system(), "", "", ":/translations")) {
-        app.installTranslator(&translator);
+    QLocale locale;
+    QString qmFilePath = QString("%1/%2.qm").arg("/usr/share/lingmo-system-monitor/translations/").arg(locale.name());
+    if (QFile::exists(qmFilePath)) {
+        QTranslator *translator = new QTranslator(app.instance());
+        if (translator->load(qmFilePath)) {
+        app.installTranslator(translator);
+        }
+        else {
+        translator->deleteLater();
+        }
     }
 
     QQmlApplicationEngine engine;
